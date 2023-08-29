@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-data
+  namespace: echoserver
+data:
+  index.html: |
+    <html>
+    <h2> Funcinou !!! </h2>
+    </html>
